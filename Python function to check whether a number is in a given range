@@ -1,0 +1,9 @@
+n1=int(input())
+n2=int(input())
+def test_range(n):
+    if n in range(n1,n2):
+        print("Inside")
+    else:
+        print("Outside")
+r=int(input())
+test_range(r)
